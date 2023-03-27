@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Page Title</title>
+  <script src="javascript.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg">
+        <div class="calculator">
+            <div class="calcWindow">
+                <p id="p1">I'm a calculator!</p>
+            </div>
+            <div class="buttons">
+                <button type=“button” class="remainder" onclick="isOperator('remainder')" id="btn">%</button>
+                <button type=“button” class="reset" onclick="reset()" id="btn">CE</button>
+                <button type=“button” class="clear" onclick="clear()" id="btn">C</button>
+                <button type=“button” class="divide" onclick="isOperator('divide')" id="btn">/</button>
+                <button type=“button” class="seven" onclick="stringNum(7)" id="numbtn">7</button>
+                <button type=“button” class="eight" onclick="stringNum(8)"id="numbtn">8</button>
+                <button type=“button” class="nine" onclick="stringNum(9)" id="numbtn">9</button>
+                <button type=“button” class="multiply" onclick="isOperator('multiply')" id="btn">x</button>
+                <button type=“button” class="four" onclick="stringNum(4)" id="numbtn">4</button>
+                <button type=“button” class="five" onclick="stringNum(5)"id="numbtn">5</button>
+                <button type=“button” class="six" onclick="stringNum(6)" id="numbtn">6</button>
+                <button type=“button” class="minus" onclick="isOperator('subtract')" id="btn">-</button>
+                <button type=“button” class="one" onclick="stringNum(1)" id="numbtn">1</button>
+                <button type=“button” class="two" onclick="stringNum(2)" id="numbtn">2</button>
+                <button type=“button” class="three" onclick="stringNum(3)" id="numbtn">3</button>
+                <button type=“button” class="plus" onclick="isOperator('add')" id="btn">+</button>
+                <button type=“button” class="negate" id="btn">±</button>
+                <button type=“button” class="zero" onclick="stringNum(0)" id="numbtn">0</button>
+                <button type=“button” class="dot" onclick="stringNum('.')" id="btn">.</button>
+                <button type=“button” class="equals" onclick="operate()" id="btn">=</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
